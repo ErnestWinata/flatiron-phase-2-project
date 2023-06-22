@@ -1,0 +1,19 @@
+{
+    "landmarks": [
+      {
+        "id": 1,
+        "name": "Eiffel Tower",
+        "country": "France",
+        "visit": false,
+        "companions": "none"
+      },
+      {
+        "id": 2,
+        "name": "Great Wall of China",
+        "country": "China",
+        "visit": false,
+        "companions": "none"
+      }
+    ]
+  }
+  
