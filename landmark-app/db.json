@@ -1,0 +1,41 @@
+{
+    "destinations": [
+    {
+      "id": 1,
+      "name": "Paris, France",
+      "image": "https://www.thewanderinglens.com/wp-content/uploads/2018/01/header.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tokyo, Japan"
+    },
+    {
+      "id": 3,
+      "name": "Rome, Italy"
+    },
+    {
+      "id": 4,
+      "name": "Istanbul, Turkey"
+    },
+    {
+      "id": 5,
+      "name": "Melbourne, Australia"
+    },
+    {
+      "id": 6,
+      "name": "Nairobi, Kenya"
+    },
+    {
+      "id": 7,
+      "name": "Bangkok, Thailand"
+    },
+    {
+      "id": 8,
+      "name": "Lima, Peru"
+    },
+    {
+      "id": 9,
+      "name": "Cairo, Egypt"
+    }
+  ]
+}
