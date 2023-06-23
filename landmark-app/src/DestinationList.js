@@ -5,12 +5,12 @@ import SelectedDestinations from './SelectedDestinations';
 const DestinationList = () => {
   const [destinations, setDestinations] = useState([]);
   const [selectedDestinations, setSelectedDestinations] = useState([]);
-  const [newDestination, setNewDestination] = useState(""); // State for the new destination name
+  const [newDestination, setNewDestination] = useState("");
 
   useEffect(() => {
     fetch('http://localhost:8000/destinations')
       .then((response) => response.json())
-      .then((data) => setDestinations(data.destinations));
+      .then((data) => setDestinations(data));
   }, []);
 
   const handleSelection = (event) => {
@@ -95,5 +95,6 @@ const DestinationList = () => {
 };
 
 export default DestinationList;
+
 
 
