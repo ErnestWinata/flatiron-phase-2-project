@@ -5,11 +5,12 @@ import SelectedDestinations from './SelectedDestinations';
 const DestinationList = () => {
   const [destinations, setDestinations] = useState([]);
   const [selectedDestinations, setSelectedDestinations] = useState([]);
+  const [newDestination, setNewDestination] = useState(""); // State for the new destination name
 
   useEffect(() => {
     fetch('http://localhost:8000/destinations')
       .then((response) => response.json())
-      .then((data) => setDestinations(data));
+      .then((data) => setDestinations(data.destinations));
   }, []);
 
   const handleSelection = (event) => {
@@ -26,6 +27,31 @@ const DestinationList = () => {
         prevDestinations.filter((id) => id !== destinationId)
       );
     }
+  };
+
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+
+    const newDestinationData = {
+      name: newDestination,
+    };
+
+    fetch('http://localhost:8000/destinations', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(newDestinationData),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        setDestinations((prevDestinations) => [
+          ...prevDestinations,
+          data,
+        ]);
+      });
+
+    setNewDestination("");
   };
 
   const handleSubmit = (event) => {
@@ -50,6 +76,15 @@ const DestinationList = () => {
           ))}
         </div>
         <button type="submit">Submit</button>
+      </form>
+      <form onSubmit={handleFormSubmit}>
+        <input
+          type="text"
+          value={newDestination}
+          onChange={(event) => setNewDestination(event.target.value)}
+          placeholder="Enter a new destination"
+        />
+        <button type="submit">Add Destination</button>
       </form>
       <SelectedDestinations
         selectedDestinations={selectedDestinations}
