@@ -1,8 +1,9 @@
 import React from 'react';
 
-const DestinationItem = ({ id, name, isChecked, onChange }) => {
+const DestinationItem = ({ id, name, isChecked, onChange, image }) => {
   return (
     <div className="card">
+      {image && <img src={image} alt={name} className="destination-image" />} {/* Add the image element */}
       <input
         type="checkbox"
         id={id}
@@ -15,5 +16,4 @@ const DestinationItem = ({ id, name, isChecked, onChange }) => {
     </div>
   );
 };
-
 export default DestinationItem;

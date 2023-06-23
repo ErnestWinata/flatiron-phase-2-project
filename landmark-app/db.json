@@ -7,35 +7,43 @@
     },
     {
       "id": 2,
-      "name": "Tokyo, Japan"
+      "name": "Tokyo, Japan",
+      "image": "https://media.cntraveller.com/photos/6343df288d5d266e2e66f082/16:9/w_2560%2Cc_limit/tokyoGettyImages-1031467664.jpeg"
     },
     {
       "id": 3,
-      "name": "Rome, Italy"
+      "name": "Rome, Italy",
+      "image": "https://fullsuitcase.com/wp-content/uploads/2022/01/Best-views-and-viewpoints-in-Rome-Italy.jpg"
     },
     {
       "id": 4,
-      "name": "Istanbul, Turkey"
+      "name": "Istanbul, Turkey",
+      "image": "https://cdn.britannica.com/95/171195-131-42DB3CAA/Suleymaniye-Mosque-River-Bosporus-Istanbul-Turkey.jpg"
     },
     {
       "id": 5,
-      "name": "Melbourne, Australia"
+      "name": "Melbourne, Australia",
+      "image": "https://i.insider.com/5c17d38801c0ea08470c8fb2?width=1000&format=jpeg&auto=webp"
     },
     {
       "id": 6,
-      "name": "Nairobi, Kenya"
+      "name": "Nairobi, Kenya",
+      "image": "https://a.travel-assets.com/findyours-php/viewfinder/images/res40/38000/38950-Nairobi.jpg"
     },
     {
       "id": 7,
-      "name": "Bangkok, Thailand"
+      "name": "Bangkok, Thailand",
+      "image": "https://media.istockphoto.com/id/483816132/photo/bangkok-cityscape.jpg?s=612x612&w=0&k=20&c=58yp-hppLeL4rmCav2Kvs7IgAfhlqn_JSWh9Jw2QiXs="
     },
     {
       "id": 8,
-      "name": "Lima, Peru"
+      "name": "Lima, Peru",
+      "image": "https://thumbs.dreamstime.com/b/lima-peru-december-aerial-buildings-downtown-miraflores-overcast-day-143761086.jpg"
     },
     {
       "id": 9,
-      "name": "Cairo, Egypt"
+      "name": "Cairo, Egypt",
+      "image": "https://media.istockphoto.com/id/1180786967/photo/panorama-of-cairo.jpg?s=612x612&w=0&k=20&c=Wk3c7snqjGcA56QMA3JUfd_erGcUeDeDTn99T1tjQyQ="
     }
   ]
 }
