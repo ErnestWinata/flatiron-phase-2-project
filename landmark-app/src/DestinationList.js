@@ -34,6 +34,7 @@ const DestinationList = () => {
 
     const newDestinationData = {
       name: newDestination,
+      image: "https://img.freepik.com/free-vector/airplane-takeoff-poster_1284-9440.jpg"
     };
 
     fetch('http://localhost:8000/destinations', {
@@ -75,7 +76,7 @@ const DestinationList = () => {
             />
           ))}
         </div>
-        <button type="submit">Submit</button>
+        {/* <button type="submit">Submit</button> */}
       </form>
       <form onSubmit={handleFormSubmit}>
         <input
