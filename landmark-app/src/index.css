@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #006400, #ffffff);
+  background: linear-gradient(to bottom, #8ae18a, #ffffff);
 }
 
 .container {
@@ -55,3 +55,27 @@ li {
   margin-bottom: 10px;
 }
 
+.input-new-destination {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #f9f9f9;
+}
+
+.description {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

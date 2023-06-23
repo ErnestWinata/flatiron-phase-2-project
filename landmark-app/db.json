@@ -8,7 +8,7 @@
     {
       "id": 2,
       "name": "Tokyo, Japan",
-      "image": "https://media.cntraveller.com/photos/6343df288d5d266e2e66f082/16:9/w_2560%2Cc_limit/tokyoGettyImages-1031467664.jpeg"
+      "image": "https://media.istockphoto.com/id/904453184/photo/mt-fuji-and-tokyo-skyline.jpg?s=612x612&w=0&k=20&c=dCovWtrGOge0jVOAQ6UHfjKndURi5jfGvgM0jejXtbY="
     },
     {
       "id": 3,
@@ -46,14 +46,9 @@
       "image": "https://media.istockphoto.com/id/1180786967/photo/panorama-of-cairo.jpg?s=612x612&w=0&k=20&c=Wk3c7snqjGcA56QMA3JUfd_erGcUeDeDTn99T1tjQyQ="
     },
     {
-      "name": "Vancouver",
+      "name": "Vancouver, Canada",
       "image": "https://img.freepik.com/free-vector/airplane-takeoff-poster_1284-9440.jpg",
       "id": 10
-    },
-    {
-      "name": "Toronto, Canada",
-      "image": "https://img.freepik.com/free-vector/airplane-takeoff-poster_1284-9440.jpg",
-      "id": 11
     }
   ]
 }
