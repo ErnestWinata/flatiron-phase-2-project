@@ -3,7 +3,7 @@ import React from 'react';
 const DestinationItem = ({ id, name, isChecked, onChange, image }) => {
   return (
     <div className="card">
-      {image && <img src={image} alt={name} className="destination-image" />} {/* Add the image element */}
+      {image && <img src={image} alt={name} className="destination-image" />}
       <input
         type="checkbox"
         id={id}
@@ -12,7 +12,10 @@ const DestinationItem = ({ id, name, isChecked, onChange, image }) => {
         checked={isChecked}
         onChange={onChange}
       />
-      <label htmlFor={id}>{name}</label>
+      <label htmlFor={id}>
+        <span className="plane-icon"></span>
+        {name}
+        </label>
     </div>
   );
 };

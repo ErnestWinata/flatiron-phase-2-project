@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import DestinationItem from './DestinationItem';
 import SelectedDestinations from './SelectedDestinations';
 
+
+
 const DestinationList = () => {
   const [destinations, setDestinations] = useState([]);
   const [selectedDestinations, setSelectedDestinations] = useState([]);
@@ -57,7 +59,6 @@ const DestinationList = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Handle submission logic
   };
 
   return (
@@ -83,7 +84,6 @@ const DestinationList = () => {
             />
           ))}
         </div>
-        {/* <button type="submit">Submit</button> */}
       </form>
       <form onSubmit={handleFormSubmit}>
         <input
