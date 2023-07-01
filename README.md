@@ -7,3 +7,16 @@ Before running the project, ensure that you have the following dependencies inst
 React
 ReactDOM
 react-router-dom
+
+To Get Started
+Clone the project repository to your local machine.
+
+Open a terminal and navigate to the project directory.
+
+Install the project dependencies by running npm install
+
+Once the dependencies are installed, you can start the application by running npm start
+
+References
+This application was created using React and its various libraries
+Pictures were obtained externally from various sources
