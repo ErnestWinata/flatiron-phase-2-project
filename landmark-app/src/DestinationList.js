@@ -10,7 +10,7 @@ const DestinationList = () => {
   const [newDestination, setNewDestination] = useState("");
 
   useEffect(() => {
-    fetch('http://localhost:8000/destinations')
+    fetch('https://project-phase2-json-server.onrender.com/destinations')
       .then((response) => response.json())
       .then((data) => setDestinations(data));
   }, []);
@@ -39,7 +39,7 @@ const DestinationList = () => {
       image: "https://img.freepik.com/free-vector/airplane-takeoff-poster_1284-9440.jpg"
     };
 
-    fetch('http://localhost:8000/destinations', {
+    fetch('https://project-phase2-json-server.onrender.com/destinations', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
