@@ -18,7 +18,7 @@ To Get Started
 
 1. Clone the project repository to your local machine.
 
-2. Open a terminal and navigate to the project directory: landmark-app
+2. Open a terminal and navigate to the project directory.  The code database is under the landmark-app folder.
 
 3. Install the project dependencies by running npm install
 
